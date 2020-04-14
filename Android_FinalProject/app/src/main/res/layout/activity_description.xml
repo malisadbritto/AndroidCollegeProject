@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="326dp" />
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textMultiLine"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#0E0D0D"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textMultiLine"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#912348"
+        android:textSize="18sp" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textViewResturantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#85314D"
+        android:textSize="30sp" />
+
+
+    <ImageView
+        android:id="@+id/imageViewSlider"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/resturant1" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/textViewAddress"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="66dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:inputType="textMultiLine"-->
+        <!--android:text="TextView"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="#0E0D0D"-->
+        <!--android:textSize="24sp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textViewDescription"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="201dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:inputType="textMultiLine"-->
+        <!--android:text="TextView"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="#912348"-->
+        <!--android:textSize="18sp" />-->
+</LinearLayout>
